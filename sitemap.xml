@@ -52,4 +52,94 @@
     <image:image><image:loc>https://diligencir.com/assets/og.png</image:loc><image:title>Diligencir — 交易对手透视</image:title><image:caption>Diligencir — 交易对手透视：大宗商品反欺诈尽职调查的 GO / NO-GO / EDD 结论。</image:caption></image:image>
     <image:image><image:loc>https://diligencir.com/assets/diligencir-logo-white.png</image:loc><image:title>Diligencir</image:title></image:image>
   </url>
+  <!-- content -->
+  <url>
+    <loc>https://diligencir.com/guia/fraude-no-comercio-de-commodities/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/guia/fraude-no-comercio-de-commodities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/guide/commodity-trade-fraud/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/guia/fraude-en-el-comercio-de-commodities/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/guide/commodity-trade-fraud/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/guide/commodity-trade-fraud/"/>
+  </url>
+  <url>
+    <loc>https://diligencir.com/en/guide/commodity-trade-fraud/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/guia/fraude-no-comercio-de-commodities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/guide/commodity-trade-fraud/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/guia/fraude-en-el-comercio-de-commodities/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/guide/commodity-trade-fraud/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/guide/commodity-trade-fraud/"/>
+  </url>
+  <url>
+    <loc>https://diligencir.com/es/guia/fraude-en-el-comercio-de-commodities/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/guia/fraude-no-comercio-de-commodities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/guide/commodity-trade-fraud/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/guia/fraude-en-el-comercio-de-commodities/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/guide/commodity-trade-fraud/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/guide/commodity-trade-fraud/"/>
+  </url>
+  <url>
+    <loc>https://diligencir.com/zh/guide/commodity-trade-fraud/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/guia/fraude-no-comercio-de-commodities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/guide/commodity-trade-fraud/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/guia/fraude-en-el-comercio-de-commodities/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/guide/commodity-trade-fraud/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/guide/commodity-trade-fraud/"/>
+  </url>
+  <url>
+    <loc>https://diligencir.com/conteudo/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/conteudo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/insights/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/contenido/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/insights/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/insights/"/>
+  </url>
+  <url>
+    <loc>https://diligencir.com/en/insights/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/conteudo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/insights/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/contenido/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/insights/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/insights/"/>
+  </url>
+  <url>
+    <loc>https://diligencir.com/es/contenido/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/conteudo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/insights/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/contenido/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/insights/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/insights/"/>
+  </url>
+  <url>
+    <loc>https://diligencir.com/zh/insights/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/conteudo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/insights/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/contenido/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/insights/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/insights/"/>
+  </url>
+  <!-- /content -->
 </urlset>
