@@ -1,0 +1,22 @@
+/* TEAM */
+   Company: Diligencir
+   Site: https://diligencir.com
+   Contact: humintmail [at] pm.me
+   What we do: Integrity & anti-fraud due diligence for the
+               Brazil-world commodity trade. Product: Counterparty X-Ray
+               (GO / NO-GO / EDD verdict with evidence).
+
+/* WHO IT'S FOR */
+   International buyers & traders, importers (China / MENA),
+   Brazilian exporters, trade lawyers, compliance & trade-finance teams.
+
+/* COMMODITIES */
+   Poultry · ICUMSA sugar · soybean · corn · beef · coffee
+
+/* METHOD */
+   OSINT · Brazilian registry access · trade-finance fraud typology · LGPD
+
+/* SITE */
+   Languages: Portuguese (base), English, Spanish, Chinese (Simplified)
+   Standards: HTML5, hreflang, JSON-LD, sitemap.xml, llms.txt
+   Last updated: 2026-06

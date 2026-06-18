@@ -1,0 +1,5 @@
+# OS / editor cruft (this repo IS the deployable static site)
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

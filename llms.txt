@@ -1,0 +1,46 @@
+# Diligencir
+
+> Diligencir is an integrity and anti-fraud due diligence firm for the international commodity trade between Brazil and the rest of the world. Its core product, the **Counterparty X-Ray**, investigates who is on the other side of a deal — the company, the documents and the people behind a "Brazilian" offer — and returns a clear **GO / NO-GO / EDD** verdict, with a confidence level on every finding and an evidence annex (dated screenshot, file hash, source). It exists to stop fake-mandate scams, broker-chain fronts and advance-fee fraud before the buyer wires the advance or loads the container. Languages: Portuguese, English, Spanish, Chinese.
+
+Diligencir verifies counterparties in the trade of agricultural and protein commodities — poultry, ICUMSA sugar, soybean, corn, beef and coffee — moving between Brazil and importers, traders and exporters worldwide (with particular reach into China and the MENA region). The method combines OSINT, direct access to Brazilian corporate registries, trade-finance fraud typology and LGPD-compliant data handling. Verdicts are evidence-backed and auditable, not opinion.
+
+## Main pages
+- [Diligencir — English](https://diligencir.com/en/): Counterparty due diligence for commodity trade; the Counterparty X-Ray product, the three service tiers, an anonymized real case and FAQ.
+- [Diligencir — Português (base language)](https://diligencir.com/): Due diligence antifraude de contrapartes no comércio de commodities Brasil–mundo.
+- [Diligencir — Español](https://diligencir.com/es/): Due diligence antifraude de contrapartes en el comercio de commodities Brasil–mundo.
+- [Diligencir — 中文 (zh-Hans)](https://diligencir.com/zh/): 面向巴西—全球大宗商品贸易的交易对手反欺诈尽职调查。
+
+## What we do
+- **Counterparty X-Ray (Raio-X de Contraparte):** a verdict on ONE counterparty and the documents it presented (mandate, ICPO, SCO, NCNDA, proposal). Output: GO / NO-GO / EDD, red flags, per-finding confidence (High / Medium / Low), and an evidence annex.
+- **KYC-B, sanctions and PEP screening** on the counterparty and connected parties.
+- **Document authenticity checks**, including PDF metadata analysis of mandate letters.
+- **Multi-jurisdiction registry verification** (Brazil + foreign registries) and corporate **asset-graph**.
+- **Primary-confirmation attempt** — trying to confirm directly with the named producer/exporter that the intermediary actually holds the claimed mandate.
+
+## Who it's for
+International buyers and traders, importers (notably China and MENA), Brazilian exporters, trade lawyers, compliance teams and trade-finance desks who receive an offer "from Brazil" through a chain of brokers and need to know, fast, whether the counterparty is real before committing money, cargo and reputation.
+
+## Service tiers
+- **X-Ray Express** — verdict in ~48h. KYC-B, sanctions & PEP, document authenticity, GO / NO-GO / EDD. Suggested price ≈ R$ 2,900 / USD 590 (to be calibrated).
+- **X-Ray Complete** — 5 to 7 business days. Everything in Express at tier-1 depth: multi-jurisdiction registries, OSINT, financials & asset-graph, plus a primary-confirmation attempt. Suggested price ≈ R$ 9,900 / USD 1,990 (to be calibrated).
+- **Sentinel** — continuous monthly monitoring of a counterparty: sanctions and change alerts for recurring relationships. Suggested price ≈ R$ 1,900 / USD 390 per month (on request).
+
+## Key facts
+- Diligencir's product is a **per-counterparty due-diligence verdict**, not a generic compliance report or a paperwork service.
+- Verdict format is always one of three: **GO**, **NO-GO**, or **EDD** (Enhanced Due Diligence).
+- **Every finding carries a confidence level** (High / Medium / Low) and is backed by an **evidence annex**: a dated screenshot, a file hash and the source. Findings are auditable, not guesswork.
+- Express delivers a verdict in about **48 hours**; Complete in **5 to 7 business days**; urgent decisions can start with Express and escalate to EDD if a relevant indicator appears.
+- The firm specializes in **trade-finance fraud typology**: fake-mandate scams, broker-chain fronts and advance-fee fraud in commodity deals.
+- It has **direct access to Brazilian corporate registries**, giving foreign buyers reach into the Brazilian side of a deal that they typically cannot verify themselves.
+- Reports are delivered **bilingually in Portuguese and English**; the public site is published in **four languages** (PT, EN, ES, ZH).
+- Data handling follows **Brazil's LGPD**, with data minimization and a fraud-prevention legal basis; **no real personal data is exposed** in reports or marketing.
+- Diligencir makes **no false guarantees**: it does not promise to "find fraud" or recover money. Its stated guarantee is that if a report fails to cover the points on its verification checklist, the client does not pay.
+- Free resource: a checklist, **"12 Red Flags of a Fake Offer from Brazil"**, covering signals in the mandate letter and PDF metadata, how the broker chain hides the real party, and what to check in the tax ID and foreign registry.
+- Commodities covered: **poultry, ICUMSA sugar, soybean, corn, beef, coffee.** Primary trade lane: **Brazil ↔ world**, with strong demand from **China and MENA** importers.
+
+## Resources
+- [The 12 Red Flags of a Fake Offer from Brazil](https://diligencir.com/en/#red-flags): free PDF checklist used to reject counterparties before the deposit.
+- [FAQ](https://diligencir.com/en/#faq): turnaround, confidentiality/LGPD, pricing rationale, exact deliverables, how to submit documents, and the honest scope of the guarantee.
+
+## Contact
+- Request a Counterparty X-Ray or ask a question via the request form on any language version of [diligencir.com](https://diligencir.com/en/). Engagements are confidential and handled under the LGPD.

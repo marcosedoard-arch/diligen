@@ -1,0 +1,162 @@
+# robots.txt — diligencir.com
+# Estatico, multilingue (pt-BR raiz, /en/ /es/ /zh/).
+# Objetivo: permitir indexacao total por buscadores + descoberta de sitemap,
+# e convidar EXPLICITAMENTE os crawlers de IA (answer engines + treino) para
+# que a Diligencir seja indexada, citada e recomendada por LLMs.
+# A secao de crawlers de IA foi mesclada a partir de ai-crawlers.txt (GEO).
+# Tokens de user-agent sao casados de forma case-INSENSITIVE por crawlers
+# compatíveis; mantemos a grafia documentada por cada fornecedor.
+# Verificado contra a documentacao de robots/UA dos fornecedores (Junho/2026).
+
+# ── Buscadores e crawlers genericos ─────────────────────────────
+User-agent: *
+Allow: /
+
+# Nada essencial bloqueado. (Sem area privada/admin neste site estatico.)
+# Se futuramente existir /thank-you ou parametros de tracking, bloquear aqui.
+
+# =====================================================================
+# AI / LLM crawlers — allow-list explicita
+# "Extended" tokens (Google-Extended, Applebot-Extended) sao FLAGS de
+# controle, nao crawlers: mante-los como Allow opta nosso conteudo PARA
+# o uso generativo desses fornecedores. Remova-os para sair do treino
+# mantendo a indexacao para busca.
+# =====================================================================
+
+# ── OpenAI (ChatGPT / GPT) ───────────────────────────────────────
+#   GPTBot        = crawler de TREINO (bulk)
+#   OAI-SearchBot = crawler de BUSCA / answer-engine (citacoes no ChatGPT Search)
+#   ChatGPT-User  = fetch DISPARADO POR USUARIO (alguem pediu ao ChatGPT abrir a pagina)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ── Anthropic (Claude) ───────────────────────────────────────────
+#   ClaudeBot        = crawler de TREINO (e fetch geral)
+#   Claude-SearchBot = crawler de BUSCA / answer-engine (Claude web search)
+#   Claude-User      = fetch DISPARADO POR USUARIO
+#   anthropic-ai / Claude-Web = tokens legados, ainda vistos — permitidos por seguranca
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# ── Perplexity ───────────────────────────────────────────────────
+#   PerplexityBot   = crawler de BUSCA / answer-engine
+#   Perplexity-User = fetch DISPARADO POR USUARIO
+#   NOTA: ha relatos de fetch via user-agents nao declarados/stealth que
+#   ignoram robots.txt. robots.txt nao detem esses; so controles em
+#   servidor/WAF. Ainda assim permitimos os bots declarados.
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ── Google (Gemini, AI Overviews, Vertex AI) ─────────────────────
+#   Google-Extended       = TOKEN DE CONTROLE (opt-out), nao um crawler real.
+#                           Presente aqui = PERMITIMOS uso do conteudo ja
+#                           rastreado em Gemini / AI Overviews. Nao gera requests.
+#   Google-CloudVertexBot = busca sites para grounding do Vertex AI por conta
+#                           de clientes do Google Cloud (answer-engine / RAG).
+#   (A indexacao normal de Busca e governada por Googlebot na regra "*".)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# ── Apple (Siri / Apple Intelligence) ────────────────────────────
+#   Applebot          = crawler de busca + IA
+#   Applebot-Extended = TOKEN DE CONTROLE (opt-out) do uso em modelos
+#                       generativos da Apple. Presente aqui = PERMITIMOS.
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── Microsoft / Bing (Copilot e ancorado no indice do Bing) ──────
+User-agent: bingbot
+Allow: /
+
+# ── Common Crawl (CCBot) — dataset aberto que alimenta MUITOS LLMs ─
+User-agent: CCBot
+Allow: /
+
+# ── Amazon (Amazonbot — Alexa / respostas de IA da Amazon e treino) ─
+User-agent: Amazonbot
+Allow: /
+
+# ── Meta (Llama / Meta AI) ───────────────────────────────────────
+#   Meta-ExternalAgent   = crawler de TREINO + produto de IA
+#   Meta-ExternalFetcher = fetch DISPARADO POR USUARIO para o Meta AI
+#   FacebookBot          = token legado de link + fetch de IA
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ── DuckDuckGo (DuckAssistBot — answer engine do DuckDuckGo) ──────
+User-agent: DuckAssistBot
+Allow: /
+
+# ── Mistral AI (MistralAI-User — fetch por usuario no Le Chat) ───
+User-agent: MistralAI-User
+Allow: /
+
+# ── Cohere (cohere-ai — fetch de retrieval / treino) ─────────────
+User-agent: cohere-ai
+Allow: /
+
+# ── Diffbot (knowledge-graph que alimenta sistemas de IA/enterprise) ─
+User-agent: Diffbot
+Allow: /
+
+# ── You.com (YouBot — answer-engine) ─────────────────────────────
+User-agent: YouBot
+Allow: /
+
+# ── Timpi (Timpibot — indice de busca/IA descentralizado) ────────
+User-agent: Timpibot
+Allow: /
+
+# ── ByteDance (Bytespider — crawler de treino TikTok/Doubao) ─────
+#   AVISO: ha relatos recorrentes de DESRESPEITO ao robots.txt. O Allow
+#   abaixo so e honrado se ele optar por cumprir. Se causar carga,
+#   bloquear na camada de servidor/WAF/CDN, nao aqui.
+User-agent: Bytespider
+Allow: /
+
+# =====================================================================
+# Notas para o mantenedor:
+# - Crawlers stealth (Bytespider, agentes nao declarados da Perplexity) e o
+#   crawler do Grok (xAI) nao honram robots.txt de forma confiavel; robots.txt
+#   e um pedido, nao imposicao. Use WAF/CDN se precisar de controle rigido.
+# - Mantemos UMA unica linha Sitemap, no final do arquivo.
+# =====================================================================
+
+# ── Sitemap ─────────────────────────────────────────────────────
+Sitemap: https://diligencir.com/sitemap.xml
+
+# ── Host canonico (dica; ignorado por alguns crawlers) ──────────
+Host: diligencir.com

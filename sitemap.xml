@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://diligencir.com/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/"/>
+    <image:image><image:loc>https://diligencir.com/assets/og.png</image:loc><image:title>Diligencir — Raio-X de Contraparte</image:title><image:caption>Diligencir — Raio-X de Contraparte: veredito GO / NO-GO / EDD em due diligence antifraude de commodities.</image:caption></image:image>
+    <image:image><image:loc>https://diligencir.com/assets/diligencir-logo-white.png</image:loc><image:title>Diligencir</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://diligencir.com/en/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/"/>
+    <image:image><image:loc>https://diligencir.com/assets/og.png</image:loc><image:title>Diligencir — Counterparty X-Ray</image:title><image:caption>Diligencir — Counterparty X-Ray: GO / NO-GO / EDD verdict in anti-fraud commodity due diligence.</image:caption></image:image>
+    <image:image><image:loc>https://diligencir.com/assets/diligencir-logo-white.png</image:loc><image:title>Diligencir</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://diligencir.com/es/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/"/>
+    <image:image><image:loc>https://diligencir.com/assets/og.png</image:loc><image:title>Diligencir — Radiografía de Contraparte</image:title><image:caption>Diligencir — Radiografía de Contraparte: veredicto GO / NO-GO / EDD en due diligence antifraude de commodities.</image:caption></image:image>
+    <image:image><image:loc>https://diligencir.com/assets/diligencir-logo-white.png</image:loc><image:title>Diligencir</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://diligencir.com/zh/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://diligencir.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diligencir.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://diligencir.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://diligencir.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://diligencir.com/en/"/>
+    <image:image><image:loc>https://diligencir.com/assets/og.png</image:loc><image:title>Diligencir — 交易对手透视</image:title><image:caption>Diligencir — 交易对手透视：大宗商品反欺诈尽职调查的 GO / NO-GO / EDD 结论。</image:caption></image:image>
+    <image:image><image:loc>https://diligencir.com/assets/diligencir-logo-white.png</image:loc><image:title>Diligencir</image:title></image:image>
+  </url>
+</urlset>

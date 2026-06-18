@@ -1,0 +1,10 @@
+# Security contact for diligencir.com  (RFC 9116)
+# Deploy at: https://diligencir.com/.well-known/security.txt
+# A copy at https://diligencir.com/security.txt is allowed as fallback.
+# Plain text, UTF-8. Update before the Expires date below lapses.
+Contact: mailto:humintmail@pm.me
+Expires: 2027-06-17T00:00:00Z
+Preferred-Languages: pt-BR, en, es
+Canonical: https://diligencir.com/.well-known/security.txt
+# We handle data under Brazil's LGPD. Please report any vulnerability
+# or data-exposure concern to the contact above before public disclosure.
