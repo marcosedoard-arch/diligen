@@ -750,7 +750,7 @@
         </ul>
       </div>
       <div class="lead-right">
-        <form action="#" method="post" onsubmit="return false;">
+        <form onsubmit="return dlgLead(event);">
           <div class="form-field">
             <label for="lf-name"><span data-i18n="s100">Nome</span></label>
             <input id="lf-name" name="name" type="text" placeholder="Seu nome" data-i18n="ph.name" data-i18n-attr="placeholder" required />
@@ -821,7 +821,7 @@
       <h2><span data-i18n="s118">Descubra quem está do outro lado.</span></h2>
       <p><span data-i18n="s120">Mande a contraparte e os documentos. Em 48–72h você tem um veredito com evidências — e a tranquilidade de decidir antes de comprometer dinheiro, carga e reputação.</span></p>
       <div class="final-cta">
-        <a href="mailto:contato@diligencir.com?subject=Pedido%20de%20Raio-X%20de%20Contraparte" class="btn btn-primary">
+        <a href="https://wa.me/551131641004" onclick="return dlgWA(event);" class="btn btn-primary">
           <span data-i18n="s121">Pedir meu Raio-X</span>
           <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
@@ -829,6 +829,7 @@
           <span data-i18n="s122">Baixar as 12 red flags</span>
         </a>
       </div>
+      <p style="margin-top:18px;font-size:14px;color:var(--ink-dim)">WhatsApp <a href="https://wa.me/551131641004" target="_blank" rel="noopener" style="color:var(--ink-soft)">+55 11 3164-1004</a> · <a href="mailto:diligencir@pm.me" style="color:var(--ink-soft)">diligencir@pm.me</a></p>
     </div>
   </div>
 </section>
@@ -868,7 +869,7 @@
       </span>
     </div>
   </div>
-<div class="wrap" style="padding:14px 24px 2px;font-size:13px"><a href="https://www.linkedin.com/company/diligencir" target="_blank" rel="me noopener" style="color:var(--ink-soft)">LinkedIn ↗</a></div></footer>
+<div class="wrap" style="padding:14px 24px 2px;font-size:13px;color:var(--ink-dim)"><a href="https://www.linkedin.com/company/diligencir" target="_blank" rel="me noopener" style="color:var(--ink-soft)">LinkedIn ↗</a> · <a href="https://wa.me/551131641004" target="_blank" rel="noopener" style="color:var(--ink-soft)">WhatsApp</a> · <a href="mailto:diligencir@pm.me" style="color:var(--ink-soft)">diligencir@pm.me</a></div></footer>
 
 <script>
   /* language switcher = real links; this only toggles the dropdown */
@@ -889,5 +890,8 @@
     els.forEach(function(el){io.observe(el);});
   })();
 </script>
-</body>
+<script>
+function dlgWA(e){if(e&&e.preventDefault)e.preventDefault();var l=document.documentElement.lang;var m=l=='pt-BR'?'Olá! Quero solicitar um Raio-X de Contraparte.':l=='es'?'¡Hola! Quiero solicitar una Radiografía de Contraparte.':(l&&l.indexOf('zh')==0)?'你好！我想申请一次交易对手尽职透视。':"Hi! I'd like to request a Counterparty X-Ray.";window.location.href='https://wa.me/551131641004?text='+encodeURIComponent(m);return false;}
+function dlgLead(e){if(e&&e.preventDefault)e.preventDefault();var g=function(id){var el=document.getElementById(id);return el?el.value:'';};var n=g('lf-name'),em=g('lf-email'),co=g('lf-company');var l=document.documentElement.lang;var b=l=='pt-BR'?'Olá! Quero o guia das 12 red flags.':l=='es'?'¡Hola! Quiero la guía de las 12 red flags.':(l&&l.indexOf('zh')==0)?'你好！我想要这份12个危险信号指南。':'Hi! I want the 12 red flags guide.';var m=b+' — '+n+(co?(' / '+co):'')+(em?(' / '+em):'');try{window.open('/materiais/12-red-flags/','_blank');}catch(x){}window.location.href='https://wa.me/551131641004?text='+encodeURIComponent(m);return false;}
+</script></body>
 </html>
