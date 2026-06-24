@@ -139,19 +139,21 @@
   }
 
   /* ===== Hero ===== */
-  .hero{padding:48px 0 48px;min-height:100svh;display:flex;align-items:flex-start;}
-  .hero-inner{max-width:860px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;}
-  .hero h1{font-size:clamp(34px,5.4vw,58px);font-weight:300;letter-spacing:-.035em;line-height:1.04;max-width:20ch;text-wrap:balance;margin-top:20px;}
+  .hero{padding:56px 0 56px;display:flex;align-items:center;}
+  .hero-grid{max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(30px,4.5vw,54px);align-items:center;text-align:left;}
+  .hero-col-text{display:flex;flex-direction:column;align-items:flex-start;}
+  .hero-col-card{display:flex;justify-content:center;}
+  .hero h1{font-size:clamp(34px,5.2vw,54px);font-weight:300;letter-spacing:-.035em;line-height:1.05;max-width:none;text-wrap:balance;margin-top:20px;}
   .hero h1 .accent{color:var(--verde);font-weight:500;}
   .hero .pain{font-size:clamp(17px,1.7vw,20px);color:var(--ink-soft);max-width:62ch;text-wrap:pretty;}
   .hero .pain b{color:#fff;font-weight:600;}
-  .hero-cta{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:24px;}
-  .hero-meta{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin-top:22px;font-size:13px;color:var(--ink-mid);}
+  .hero-cta{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:14px;margin-top:24px;}
+  .hero-meta{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:18px;margin-top:22px;font-size:13px;color:var(--ink-mid);}
   .hero-meta .langs{font-family:var(--mono);letter-spacing:.04em;font-variant-numeric:tabular-nums;}
   .hero-meta span{display:inline-flex;align-items:center;gap:8px;}
   .hero-meta svg{width:15px;height:15px;color:var(--ink-dim);}
   /* sample deliverable: now the hero centerpiece (replaces the old cube) */
-  .hero .verdict-card{width:100%;max-width:440px;margin:16px auto 6px;text-align:left;}
+  .hero .verdict-card{width:100%;max-width:460px;margin:0;text-align:left;}
 
   /* Hero verdict card */
   .verdict-card{
@@ -388,7 +390,8 @@
   /* reduced motion */
   @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important;}}
   /* responsive: phones (centered cube hero) */
-  @media(max-width:768px){.hero{min-height:auto;padding:104px 0 56px;}.hero h1{font-size:clamp(26px,6.4vw,40px);max-width:none;}.hero .pain{font-size:17px;}}
+  @media(max-width:900px){.hero{padding:44px 0 44px;}.hero-grid{grid-template-columns:1fr;gap:26px;text-align:center;}.hero-col-text{align-items:center;}.hero-cta,.hero-meta{justify-content:center;}.hero .verdict-card{margin:6px auto 0;}}
+  @media(max-width:768px){.hero{min-height:auto;padding:84px 0 48px;}.hero h1{font-size:clamp(26px,6.4vw,40px);max-width:none;}.hero .pain{font-size:17px;}}
   @media(max-width:640px){.wrap{padding:0 18px;}.hero{padding:92px 0 48px;}.hero h1{font-size:clamp(23px,7.4vw,34px);font-weight:300;line-height:1.08;letter-spacing:-.03em;margin-top:22px;}.hero .pain{font-size:16px;max-width:46ch;}.hero-cta{gap:10px;margin-top:28px;width:100%;}.hero-cta .btn{flex:1 1 auto;}.hero-meta{gap:10px 16px;margin-top:24px;font-size:12px;}.nav-links{display:none;}}
   @media(max-width:380px){.hero h1{font-size:clamp(21px,8vw,30px);}.hero-meta{font-size:11px;gap:8px 12px;}.eyebrow{font-size:10.5px;letter-spacing:.1em;padding:7px 12px;}}
   html[lang^="zh"] .hero h1{max-width:18ch;}
@@ -548,7 +551,8 @@
 
 <!-- ===== HERO ===== -->
 <section class="hero" id="top">
-  <div class="wrap hero-inner">
+  <div class="wrap hero-grid">
+    <div class="hero-col-text">
       <span class="eyebrow"><span class="dot"></span>
         <span data-i18n="s006">Anti-fraud due diligence · commodities · Brazil &amp; the world</span>
       </span>
@@ -557,6 +561,29 @@
         <span data-i18n="s007">We investigate <span class="accent">who's on the other side</span> — before the deal is yours.</span>
       </h1>
 
+      <p class="pain">
+        <span data-i18n="s009">You got an offer "from Brazil" through a chain of brokers: mandate from a major producer, ICPO, SCO, NCNDA. <b>Before you wire the advance or load the container, find out if the counterparty is real.</b></span>
+      </p>
+
+      <div class="hero-cta">
+        <a href="#pedir" class="btn btn-primary">
+          <span data-i18n="s010">Request my X-Ray</span>
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#lead" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span data-i18n="s011">Download the 12 red flags</span>
+        </a>
+      </div>
+
+      <div class="hero-meta">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="s012">Verdict in 48–72h</span></span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span data-i18n="s013">Brazilian registry access</span></span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg><span data-i18n="s014">OSINT + trade finance</span></span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M2 12h20M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg><span class="langs">EN · PT · ES · 中文</span></span>
+      </div>
+    </div>
+    <div class="hero-col-card">
       <div class="verdict-card" aria-hidden="true">
         <div class="vc-top">
           <div class="file">
@@ -610,28 +637,7 @@
           <span data-i18n="s026">Each finding with dated screenshot, hash and source. LGPD-compliant.</span>
         </div>
       </div>
-
-      <p class="pain">
-        <span data-i18n="s009">You got an offer "from Brazil" through a chain of brokers: mandate from a major producer, ICPO, SCO, NCNDA. <b>Before you wire the advance or load the container, find out if the counterparty is real.</b></span>
-      </p>
-
-      <div class="hero-cta">
-        <a href="#pedir" class="btn btn-primary">
-          <span data-i18n="s010">Request my X-Ray</span>
-          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <a href="#lead" class="btn btn-ghost">
-          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-          <span data-i18n="s011">Download the 12 red flags</span>
-        </a>
-      </div>
-
-      <div class="hero-meta">
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="s012">Verdict in 48–72h</span></span>
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span data-i18n="s013">Brazilian registry access</span></span>
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg><span data-i18n="s014">OSINT + trade finance</span></span>
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M2 12h20M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg><span class="langs">EN · PT · ES · 中文</span></span>
-      </div>
+    </div>
   </div>
 </section>
 
